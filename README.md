@@ -10,4 +10,4 @@ Run with:
 
 <pre> <code> node server.js </code> </pre>
 
-<pre> And open *** localhost:3000 *** in your browser </pre>
+<p> And open ***localhost:3000*** in your browser </p>
