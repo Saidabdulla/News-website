@@ -9,5 +9,5 @@ Setup with:
 Run with:
 
 <pre> <code> node server.js </code> </pre>
-
-<p> And open ***localhost:3000*** in your browser </p>
+<br>
+<p> And open <b> localhost:3000 <b> in your browser </p>
