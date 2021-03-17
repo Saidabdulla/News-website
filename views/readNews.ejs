@@ -1,0 +1,24 @@
+<div class="container my-5">
+  <div class="row">
+    <% if(post) { %>
+    <div class="col-8 offset-2">
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-12">
+            <img src="<%= post.image %>" style="width: 100%; height: auto" />
+          </div>
+          <div class="col-md-12">
+            <div class="card-body">
+              <h5 class="card-title"><%= post.description %></h5>
+              <p class="card-text"><%= post.body %></p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <% } %>
+  </div>
+</div>

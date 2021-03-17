@@ -1,0 +1,14 @@
+.navbar{
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}

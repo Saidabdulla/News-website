@@ -1,0 +1,25 @@
+<div class="container my-5">
+  <div class="row">
+    <% if(posts) { %> <% for(post of posts){ %>
+    <div class="col-8 offset-2">
+      <div class="card mb-3">
+        <a href="/news/<%= post._id %>">
+          <div class="row no-gutters">
+            <div class="col-md-5">
+              <img src="<%= post.image %>" style="height: 120px" />
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title"><%= post.description %></h5>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <% } %> <% } %>
+  </div>
+</div>
