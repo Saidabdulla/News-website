@@ -9,3 +9,5 @@ Setup with:
 Run with:
 
 <pre> <code> node server.js </code> </pre>
+
+<pre> And open *** localhost:3000 *** in your browser </pre>
