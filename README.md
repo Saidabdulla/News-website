@@ -2,6 +2,6 @@
 
 Simple news website in Node js, Express js, EJS and MongoDB
 
-Setup with: <br> <br>
+Setup with: 
 
-<b> npm install </b>
+<code> npm install </code>
